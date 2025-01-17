@@ -30,6 +30,12 @@ jobs:
       # Step 4: Build React app
       - name: Build React app
         run: npm run build
+        env:
+          REACT_APP_EMAILJS_SERVICE_ID: ${{ secrets.REACT_APP_EMAILJS_SERVICE_ID }}
+          REACT_APP_EMAILJS_TEMPLATE_ID: ${{ secrets.REACT_APP_EMAILJS_TEMPLATE_ID }}
+          REACT_APP_EMAILJS_PUBLIC_KEY: ${{ secrets.REACT_APP_EMAILJS_PUBLIC_KEY }}
+
+
 
       # Step 5: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
