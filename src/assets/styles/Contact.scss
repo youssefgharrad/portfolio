@@ -1,0 +1,97 @@
+#contact {
+  .contact_wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    text-align: left;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.contact-form {
+  padding-top: 20px;
+
+  button {
+    float: right;
+    background-color: white;
+    color: #1E253A;
+
+    &:hover {
+      background-color: #1E253A;
+      color: white;
+    }
+  }
+
+  .MuiTextField-root {
+
+    .MuiOutlinedInput-root {
+      & fieldset {
+        border-color: rgb(255, 255, 255); // Change the border color
+      }
+    }
+  
+
+    .MuiInputBase-input {
+      color: #ffffff;
+    }
+
+    .MuiInputLabel-root {
+      color: #ffffff; 
+    }
+
+    .InputProps{
+        color: #ffffff; 
+      }
+    .InputLabelProps{
+        color: #ffffff; 
+      }
+  }
+
+  
+}
+
+
+.light-mode {
+  background-color: #fff;
+  color: #000;
+
+  .contact-form {
+
+    button {
+      float: right;
+      background-color: #1E253A;
+      color: #f9f9f9;
+  
+      &:hover {
+        background-color: #ffffff;
+        color: #1E253A;
+      }
+    }
+
+    .MuiOutlinedInput-root {
+      & fieldset {
+        border-color: rgb(0, 0, 0); // Change the border color
+      }
+    }
+    .MuiInputBase-input {
+      color: #000; 
+    }
+
+    .MuiInputLabel-root {
+      color: #000; 
+    }
+
+    .InputProps{
+        color: #000; 
+      }
+    .InputLabelProps{
+        color: #000; 
+      }
+  }
+    
+}
+

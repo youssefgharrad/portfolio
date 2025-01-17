@@ -1,0 +1,55 @@
+.about-space {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%;
+
+    .content {
+      text-align: center; /* Center text */
+      z-index: 2;
+      max-width: 800px; /* Limit width for better readability */
+  
+      h1 {
+        font-size: 2.5em; /* Adjusted font size */
+        margin-block-start: 0px;
+        margin-block-end: 0.5em;
+        color: white;
+      }
+  
+      p {
+        font-size: 1.2em; /* Adjusted font size */
+        margin-block-start: 0px;
+        margin-block-end: 1.5em;
+        color: white;
+        line-height: 1.6;
+  
+        .highlight {
+          color: #0a66c2; /* LinkedIn's brand color for highlights */
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  
+  
+  // Responsive styles
+  @media (max-width: 768px) {
+    .about-space {
+      padding: 0px 5%;
+      min-height: 500px;
+  
+      .content {
+        h1 {
+          font-size: 2em !important; /* Adjusted font size for mobile */
+        }
+  
+        p {
+          font-size: 1em; /* Adjusted font size for mobile */
+        }
+  
+        .typing-effect {
+          font-size: 1em; /* Adjusted font size for mobile */
+        }
+      }
+    }
+  }

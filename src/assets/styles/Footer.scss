@@ -1,0 +1,144 @@
+footer {
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+  
+    .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+  
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+  
+      .email {
+        font-size: 1.1rem;
+        margin: 0;
+        color: #fff;
+      }
+  
+      .icons {
+        display: flex;
+        gap: 1.5rem;
+  
+        a {
+          color: #fff;
+          transition: color 0.3s ease;
+  
+          &:hover {
+            color: #1E253A;
+          }
+        }
+      }
+    }
+  
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #ffffff;
+      color: #1E253A;
+      border-radius: 50%;
+      padding: 0.5rem;
+      transition: background-color 0.3s ease;
+      z-index: 1000;
+  
+      &:hover {
+        background-color: #1E253A;
+        color: #ffffff;
+      }
+  
+      .arrow-to-top {
+        font-size: 1.5rem;
+      }
+    }
+
+    .copyright {
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .light-mode {
+    footer {
+        color: #000000;
+        padding: 2rem 0;
+        text-align: center;
+        position: relative;
+      
+        .footer-content {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 0 1rem;
+        }
+      
+        .social-links {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1rem;
+      
+          .email {
+            font-size: 1.1rem;
+            margin: 0;
+            color: #000000;
+          }
+      
+          .icons {
+            display: flex;
+            gap: 1.5rem;
+      
+            a {
+              color: #000000;
+              transition: color 0.3s ease;
+      
+              &:hover {
+                color: #1E253A;
+              }
+            }
+          }
+        }
+      
+        .back-to-top {
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          background-color: #1E253A;
+          color: #fff;
+          border-radius: 50%;
+          padding: 0.5rem;
+          transition: background-color 0.3s ease;
+          z-index: 1000;
+      
+          &:hover {
+            background-color: #ffffff;
+            color: #1E253A;
+          }
+      
+          .arrow-to-top {
+            font-size: 1.5rem;
+          }
+        }
+      }
+
+      .copyright {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+        margin-left:auto;
+      }
+  }
+
+
+
+  @media screen and (max-width: 700px) {
+    .back-to-top {
+      position: fixed;
+      bottom: 40px;
+      right: 20px; /* Move it closer to the left */
+    }
+  }

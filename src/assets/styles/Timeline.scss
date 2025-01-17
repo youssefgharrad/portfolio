@@ -1,0 +1,115 @@
+#history {
+  background-image: url("../images/bg-dark.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+  .items-container {
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  h1 {
+    // text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 2rem;
+    color: white;
+  }
+}
+
+.light-mode {
+  #history {
+    background-image: url("../images/bg-light.png");
+
+    h1 {
+      color: rgb(0, 0, 0);
+    }
+
+    .vertical-timeline-element-date {
+      color: black;
+    }
+
+    .vertical-timeline-element-icon {
+      background: #818589;
+      color: rgb(39, 40, 34);
+      box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .vertical-timeline-element--work {
+      .vertical-timeline-element-content {
+        background: white;
+        color: rgb(39, 40, 34);
+
+        &::before {
+          border-right: 7px solid white !important; // Force the arrow to be white in light mode
+        }
+      }
+    }
+  }
+}
+
+.vertical-timeline {
+  span {
+    color: white;
+    font-family: 'Courier Prime', monospace;
+  }
+
+  p {
+    color: rgb(39, 40, 34);
+  }
+}
+
+.vertical-timeline-element {
+  p {
+    color: rgb(39, 40, 34);
+  }
+
+  h3 {
+    color: rgb(39, 40, 34);
+  }
+
+  h4 {
+    color: rgb(39, 40, 34);
+  }
+
+  span {
+    color: rgb(39, 40, 34);
+  }
+
+  .vertical-timeline-element-date {
+    color: white;
+  }
+}
+
+.vertical-timeline-element--work {
+  .vertical-timeline-element-content {
+    background: white;
+    color: rgb(39, 40, 34);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+
+    &::before {
+      border-right: 7px solid white; // Arrow color in dark mode
+    }
+  }
+
+  .vertical-timeline-element-icon {
+    background: #22293F;
+    color: rgb(39, 40, 34);
+    box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  }
+}
+
+.svg-inline--fa {
+  color: white;
+}
+
+@media screen and (max-width: 1170px) {
+  .vertical-timeline-element .vertical-timeline-element-date {
+    color: rgb(39, 40, 34);
+  }
+}

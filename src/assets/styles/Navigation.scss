@@ -1,0 +1,26 @@
+.social-icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 16px; 
+    padding: 16px 0; 
+    border-top: 1px solid rgba(0, 0, 0, 0.12); 
+  
+    .MuiListItemButton-root {
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      padding: 8px; 
+      min-width: 40px;
+      min-height: 40px; 
+  
+      .MuiSvgIcon-root {
+        font-size: 1.5rem; 
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.04); 
+            }
+      }
+
+      transition: background-color 0.3s ease; 
+    }
+  }
