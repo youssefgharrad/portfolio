@@ -46,4 +46,4 @@ jobs:
           force_orphan: true  # Ensure deployment works without an existing branch
 
       - name: Set up environment variables
-          run: echo "REACT_APP_EMAILJS_SERVICE_ID=${{ secrets.REACT_APP_EMAILJS_SERVICE_ID }}" >> $GITHUB_ENV
+        run: echo "REACT_APP_EMAILJS_SERVICE_ID=${{ secrets.REACT_APP_EMAILJS_SERVICE_ID }}" >> $GITHUB_ENV
