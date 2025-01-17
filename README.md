@@ -14,5 +14,5 @@ This portfolio showcases my projects, skills, and professional journey. Feel fre
 
 This portfolio is deployed using **GitHub Actions**. GitHub Actions is an automated platform that allows continuous integration and deployment, making it easy to host static websites directly from a GitHub repository.
 
-You can view the live version of the portfolio at: [[**Your Portfolio Link**] (replace this with your actual link)](https://youssefgharrad.github.io/portfolio/).
+You can view the live version of the portfolio at: https://youssefgharrad.github.io/portfolio/.
 
