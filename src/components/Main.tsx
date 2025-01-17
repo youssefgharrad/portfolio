@@ -71,7 +71,7 @@ function Main() {
               I'm Youssef Gharrad, a passionate <span className="highlight">Full Stack Engineer</span> with a love for building innovative and scalable web applications.
             </p>
             <p>
-              With expertise in <span className="highlight">Node.js</span>, <span className="highlight">React.js</span>, and <span className="highlight">Spring Boot</span>, I thrive on transforming ideas into clean, efficient solutions. I excel in collaborative settings and i am always eager to tackle new challenges.            </p>
+              With expertise in <span className="highlight">Node.js</span>, <span className="highlight">React.js</span>, <span className="highlight">Spring Boot</span> and more I thrive on transforming ideas into clean, efficient solutions. I excel in collaborative settings and i am always eager to tackle new challenges.            </p>
             <p>
               I completed my Bachelor's degree in 2020 and have been studying at <a target="_blank" className="highlight" href="https://esprit.tn/" rel="noreferrer">ESPRIT</a> since then. I am on track to earn my Engineering degree in 2025.            
             </p>
